@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+margin: 0 50px;
+
+}
+
+
+
+
+h1 {
+    font-size: 3rem;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 1s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+.logo{
+    width: 400px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+
+  .footer{
+    font-size: 2rem;
+}
+
+.footer-name{
+    text-decoration: none;
+}
